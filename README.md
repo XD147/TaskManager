@@ -45,9 +45,7 @@ Basada en JWT.
 
 ## ▶️ Ejecución local
 
-mvn clean package
-docker build -t taskmanager-api .
-docker run -p 8080:8080 taskmanager-api
+http://localhost:8080/swagger-ui/index.html#/
 
 ---
 
