@@ -1,4 +1,0 @@
-target/*
-!target/*.jar
-.git/
-node_modules/
