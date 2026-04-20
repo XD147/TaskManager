@@ -3,6 +3,7 @@ package com.gicamube.taskmanager.controller;
 import com.gicamube.taskmanager.dto.UserRequestDTO;
 import com.gicamube.taskmanager.dto.UserResponseDTO;
 import com.gicamube.taskmanager.service.UserService;
+import io.swagger.v3.oas.annotations.Hidden;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/users")
 @RequiredArgsConstructor
+@Hidden
 public class UserController {
 
     private final UserService userService;
